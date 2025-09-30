@@ -1,4 +1,5 @@
 import adapterPattern.AdapterTester;
+import bridgePattern.BridgeTester;
 import compositePattern.CompositeTester;
 import decorator.DecoratorTester;
 import facade.FacadeTester;
@@ -17,5 +18,7 @@ public class Main {
 
         DecoratorTester decoratorTester=new DecoratorTester();
         decoratorTester.check();
+        BridgeTester bridgeTester=new BridgeTester();
+        bridgeTester.check();
     }
 }
