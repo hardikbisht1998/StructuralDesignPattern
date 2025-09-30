@@ -1,5 +1,6 @@
 import adapterPattern.AdapterTester;
 import compositePattern.CompositeTester;
+import decorator.DecoratorTester;
 import facade.FacadeTester;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -13,5 +14,8 @@ public class Main {
         compositeTester.check();
         FacadeTester facadeTester=new FacadeTester();
         facadeTester.check();
+
+        DecoratorTester decoratorTester=new DecoratorTester();
+        decoratorTester.check();
     }
 }
