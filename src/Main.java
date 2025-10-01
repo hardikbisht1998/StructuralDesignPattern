@@ -3,6 +3,9 @@ import bridgePattern.BridgeTester;
 import compositePattern.CompositeTester;
 import decorator.DecoratorTester;
 import facade.FacadeTester;
+import flyweightPattern.FlyweightTester;
+import proxyPattern.ProxyTester;
+import proxyPattern.ProxyVault;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,5 +23,10 @@ public class Main {
         decoratorTester.check();
         BridgeTester bridgeTester=new BridgeTester();
         bridgeTester.check();
+        ProxyTester proxyTester=new ProxyTester();
+        proxyTester.check();
+
+        FlyweightTester flyweightTester=new FlyweightTester();
+        flyweightTester.check();
     }
 }
